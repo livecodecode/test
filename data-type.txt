@@ -1,0 +1,13 @@
+Create Table: CREATE TABLE `data` (
+  `code` varchar(150) NOT NULL,
+  `title` varchar(150) DEFAULT NULL,
+  `date` varchar(100) DEFAULT NULL,
+  `length` varchar(50) DEFAULT NULL,
+  `direct` varchar(200) DEFAULT NULL,
+  `make` varchar(200) DEFAULT NULL,
+  `issue` varchar(200) DEFAULT NULL,
+  `sets` varchar(200) DEFAULT NULL,
+  `type` varchar(800) DEFAULT NULL,
+  `preformers` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`code`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
